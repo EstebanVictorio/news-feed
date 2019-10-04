@@ -10,7 +10,7 @@ const container = document.querySelector("#root")
 ReactDOM.render(
   <Router>
     <GlobalStyles />
-    <h2>My news feed</h2>
+    <h2 className="news-feed__heading">My news feed</h2>
     <NavigationBar />
     <Switch>
       <Route exact path="/" component={MyCountry} />

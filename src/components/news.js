@@ -5,10 +5,10 @@ const StyledNews = styled.ul`
   margin: 0;
   display: flex;
   padding: 0 10px;
+  max-width: 1024px;
   align-items: center;
   list-style-type: none;
   flex-direction: column;
-  max-width: 1024px;
 `
 
 const News = ({ news }) => (
