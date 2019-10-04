@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "jsx": "react",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "pages/*": ["./src/pages/*"],
+      "utils/*": ["./src/utils/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "services/*": ["./src/services/*"],
+      "components/*": ["./src/components/*"]
+    }
+  }
+}
